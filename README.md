@@ -1,5 +1,6 @@
 # Deep Fuzzy Clustering Transformer: Learning the General Property of Corruptions for Degradation-Agnostic Multi-Task Image Restoration
 Official PyTorch implementation of Deep Fuzzy Clustering Transformer: Learning the General Property of Corruptions for Degradation-Agnostic Multi-Task Image Restoration in IEEE Transactions on Fuzzy Systems (2023).
+![framework](./figures/img2.png)
 ## Requirements
 1. Python==3.6.13
 2. Pytorch==1.10.1
@@ -9,6 +10,9 @@ If you want to evaluate the model performance scores, make sure the weight file 
 ```
 python evaluate.py
 ```
+## Visual presentations of the results.
+![framework](./figures/img6.png)
+![framework](./figures/img7.png)
 ## Citation
 If you find our work useful, please cite our paper by the following:
 ```
