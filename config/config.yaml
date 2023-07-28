@@ -1,0 +1,19 @@
+dataset:
+  syn_rain_path: ''
+  syn_ground_path: ''
+  img_size: 256
+
+trainer:
+  batch_size: 8
+  max_epochs: 360
+  num_workers: 2
+  m: 0.99
+  img_save_path: './images'
+  weights_save_path: './weights'
+
+optimizer:
+  params:
+    lr: 0.0002
+    #momentum: 0.99
+    weight_decay: 0.000001
+
